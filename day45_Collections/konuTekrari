@@ -1,0 +1,22 @@
+collections icinde birden fazla element bulundurabilen java objeleridir
+collections interfacesi altinda bir cok interface ve class mevcuttur
+collection ozellikleri aacisindan 3 temel interface'e aayrilir
+       list
+       queue :( kuyruk) ekleme ve cikarma iki uctan olabilir farkli collection ogeleri icin bas ve son kavramlari degisiklik gosterir
+       ortadan biyerden eklemee cikarma yapilmaz. 
+       set: matemetikteki kume gibidir. kumede ise sira önemli degilidr herhani bir elementin o kumede var olup olmadigiidr
+       orn: yangin tupu var mi yok mu onemli olan olmasidir
+bunun disinda yapiyi anlammamizi saglayan anahtar kelimeler vardir
+  1-  Linked:(halay gibi birbirine bagli)  elemmentlerin birbirini takip ettigi yapilardir. Ekleme ve cikarmada hizlidirlar. ancak linked ypisindan 
+    dolayi elemanlar arasinda hareket etmek yavastir.
+  2-   hash :hash mekanizmasi elementleri bulmamizi kolaylastiran matematiksel bir formuldur.
+  3-   tree: natural sirali demektir eklenilen veya cıkarilan her bir element yapidaki siralaayi degistirecegi icin  yavastir
+  
+  linked list:iki interface in child classidir. List ve Deque->queue
+  dolayisiyla iki interfanin  tum methodlari override etmistir ve biz linked ist ile istedigimiziterfaceden methodlar kullanabiliriz.
+   istersek de 
+   devami var
+  
+       
+       
+       
